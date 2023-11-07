@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+This project is a user information management web application built with React. It provides a platform for users to input their name and age, and upon submission, the user's data is displayed as labels. The app serves as an excellent exercise to hone your React skills while incorporating package management using Yarn or npm, styled-components for CSS styling, JSX for mixing HTML and JavaScript, and React Hooks, including useState and useRef.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project Features:
 
-## Available Scripts
+User Input: Users can enter their name and age into separate input fields.
 
-In the project directory, you can run:
+User Data Display: Upon confirmation, the user's information, including their name and age, is rendered as labels on the screen.
 
-### `npm start`
+User Deletion: The app allows users to remove entries from the list, giving them control over their displayed data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Styled User Interface: styled-components is employed to style the application, creating a visually appealing and user-friendly interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Technology Stack:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React: The front-end framework for building the user interface.
+Yarn or npm: Package managers for managing project dependencies.
+styled-components: A CSS-in-JS library for styling the application.
+JSX: Utilized to create components and merge HTML with JavaScript in a React application.
+React Hooks: Specifically, useState for managing the application's state and useRef for accessing DOM elements.
